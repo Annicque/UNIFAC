@@ -118,4 +118,3 @@ def calculate():
         # Renvoyer le modèle output.html avec les résultats calculés
     return render_template('output.html', a12=a12_opt, a21=a21_opt, error=error, D_AB=D_AB_opt, plot_encoded=plot_encoded)
 
-app.run(debug=True)
